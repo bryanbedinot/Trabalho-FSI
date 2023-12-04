@@ -5,7 +5,7 @@ body{
 
 
 .container{
-    background-color: rgb(107, 75, 59);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     border: 1px solid black;
     max-width: 1200px; 
@@ -22,11 +22,24 @@ body{
 .historia{
     background-color: rgb(157, 119, 100);
     text-align: center;
+    border: 1px solid black;
+    border-bottom: 0px;
 }
 
-.algo{
+.txt1{
+    background-color: rgb(157, 119, 100);
+    text-align: justify;
+    border: 1px solid black;
+    border-top: 0px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.caractesristica{
     background-color: rgb(212, 182, 166);
     text-align: center;
+    height: 280px;
+    border: 1px solid black;
 }
 
 .img1{
@@ -34,16 +47,31 @@ body{
     padding-top: 0px;
     padding-bottom: 10px;
     display: inline-block;
+    padding-left: 10px;
 }
 
-.txt1{
-    width: 900px;
-    border: 1px solid black;
+.txt2{
+    width: 880px;
+    border: 0px solid black;
     float: right;
     display: inline-block;
     padding-right: 10px;
     padding-inline-start: 5px;
+    text-align: justify;
 }
 
 
-    
+.impacto{
+    background-color: rgb(107, 75, 59);
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: 0px;
+}
+
+.txt3{
+    text-align: justify;
+    border: 1px solid black;
+    border-top: 0px;
+    padding: 20px;
+    padding-top: 0px;
+}
